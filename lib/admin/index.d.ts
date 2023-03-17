@@ -19,3 +19,5 @@ export declare enum AdminCommand {
     Rules = "rules",
     UpdateRules = "rules:update"
 }
+export declare const getMoonshotCommand: (command: AdminCommand) => string;
+export declare const getTaycCommand: (command: AdminCommand) => string;

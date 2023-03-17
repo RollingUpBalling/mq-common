@@ -19,3 +19,8 @@ export enum AdminCommand {
   Rules = "rules",
   UpdateRules = "rules:update",
 }
+
+export const getMoonshotCommand = (command: AdminCommand) =>
+  `moonshot:${command}`;
+
+export const getTaycCommand = (command: AdminCommand) => `tayc:${command}`;
