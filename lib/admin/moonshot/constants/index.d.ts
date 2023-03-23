@@ -1,0 +1,21 @@
+export declare enum AdminCommand {
+    Statistics = "moonshot:statistics",
+    Leaderboards = "moonshot:leaderboards",
+    TopBets = "moonshot:leaderboards:bets",
+    Users = "moonshot:users",
+    User = "moonshot:user",
+    CreateUser = "moonshot:users:create",
+    UpdateUser = "moonshot:users:update",
+    CreatePromocodes = "moonshot:promocodes:create",
+    Tag = "moonshot:promocodes:tag",
+    Tags = "moonshot:promocodes:tags",
+    CreateTag = "moonshot:promocodes:tags:create",
+    Referrals = "moonshot:referrals",
+    Giveaway = "moonshot:giveaway",
+    Giveaways = "moonshot:giveaways",
+    CreateGiveaway = "moonshot:giveaways:create",
+    UpdateGiveaway = "moonshot:giveaways:update",
+    DeleteGiveaway = "moonshot:giveaways:delete",
+    Rules = "moonshot:rules",
+    UpdateRules = "moonshot:rules:update"
+}
