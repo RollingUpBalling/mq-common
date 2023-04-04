@@ -7,6 +7,10 @@ enum Token {
   SolB = "solb",
   BonkB = "bonkb",
   AptB = "aptb",
+  Matic = "matic",
+  Arb = "arb",
+  MaticB = "maticb",
+  ArbB = "arbb",
 }
 
 enum BonusToken {

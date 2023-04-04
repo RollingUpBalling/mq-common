@@ -6,7 +6,11 @@ declare enum Token {
     NearB = "nearb",
     SolB = "solb",
     BonkB = "bonkb",
-    AptB = "aptb"
+    AptB = "aptb",
+    Matic = "matic",
+    Arb = "arb",
+    MaticB = "maticb",
+    ArbB = "arbb"
 }
 export type IToken = {
     token: Token;
